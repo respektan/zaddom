@@ -15,7 +15,7 @@ public class MenuService {
         System.out.println("8.\t Usun studenta.");
         System.out.println("9.\t Usun wykladowce.");
         System.out.println();
-        System.out.println("0.\t Wyjdz z programu.");
+        System.out.println("0.\t Wyjdz z programu.\n");
         System.out.print("Wybor: ");
     }
     public static void wyswietlBlad() {

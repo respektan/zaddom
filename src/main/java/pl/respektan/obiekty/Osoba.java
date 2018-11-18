@@ -1,13 +1,18 @@
-package pl.respektan;
+package pl.respektan.obiekty;
 
 import java.time.LocalDate;
 
 public class Osoba {
 
-    private String imie;
-    private String nazwisko;
-    private LocalDate dataUrodzenia;
-    private char plec;
+    protected String imie;
+    protected String nazwisko;
+    protected LocalDate dataUrodzenia;
+    protected char plec;
+
+    public Osoba(String imie, String nazwisko) {
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+    }
 
     public Osoba(String imie, String nazwisko, LocalDate dataUrodzenia, char plec) {
         this.imie = imie;

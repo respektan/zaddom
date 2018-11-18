@@ -1,4 +1,4 @@
-package pl.respektan;
+package pl.respektan.obiekty;
 
 import java.time.LocalDate;
 
@@ -6,7 +6,7 @@ public class Stypendysta extends Student {
 
     private double stypendium;
 
-    public Stypendysta(String imie, String nazwisko, LocalDate dataUrodzenia, char plec, int numerIndeksu, double stypendium) {
+    public Stypendysta(String imie, String nazwisko, LocalDate dataUrodzenia, char plec, String numerIndeksu, double stypendium) {
         super(imie, nazwisko, dataUrodzenia, plec, numerIndeksu);
         this.stypendium = stypendium;
     }
